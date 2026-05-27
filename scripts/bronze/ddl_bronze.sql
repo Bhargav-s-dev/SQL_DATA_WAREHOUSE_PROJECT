@@ -85,9 +85,9 @@ CREATE TABLE bronze.crm_sales_details
 -- Table: erp_CUST_AZ12
 -- ==========================================
 
-DROP TABLE IF EXISTS bronze.erp_CUST_AZ12;
+DROP TABLE IF EXISTS bronze.erp_cust_az12; 
 
-CREATE TABLE bronze.erp_CUST_AZ12
+CREATE TABLE bronze.erp_cust_az12 
 (
     CID        VARCHAR(50),
     BDATE      DATE,
@@ -99,9 +99,9 @@ CREATE TABLE bronze.erp_CUST_AZ12
 -- Table: erp_LOC_A101
 -- ==========================================
 
-DROP TABLE IF EXISTS bronze.erp_LOC_A101;
+DROP TABLE IF EXISTS bronze.erp_loc_a101; 
 
-CREATE TABLE bronze.erp_LOC_A101
+CREATE TABLE bronze.erp_loc_a101 
 (
     CID        VARCHAR(50),
     CNTRY      VARCHAR(100)
@@ -110,9 +110,9 @@ CREATE TABLE bronze.erp_LOC_A101
 -- Table: erp_PX_CAT_G1V2
 -- ==========================================
 
-DROP TABLE IF EXISTS bronze.erp_PX_CAT_G1V2;
+DROP TABLE IF EXISTS bronze.erp_px_cat_g1v2; 
 
-CREATE TABLE bronze.erp_PX_CAT_G1V2
+CREATE TABLE bronze.erp_px_cat_g1v2 
 (
     ID            VARCHAR(50),
     CAT           VARCHAR(100),
